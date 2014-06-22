@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition extends="default" name="categoriesListing">
+		<put-attribute name="body">
+			<definition extends="sideBarOn.body">
+				<put-attribute name="mainContent" value="/WEB-INF/views/public/categories/categories.jsp" />
+				<put-attribute name="sideBar" value="/WEB-INF/views/public/categories/categories-side-bar.jsp" />
+			</definition>
+		</put-attribute>
+	</definition>
+	
+</tiles-definitions>

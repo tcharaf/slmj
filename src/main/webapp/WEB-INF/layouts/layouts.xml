@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC 
+		"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+		"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+	<definition name="default" template="/WEB-INF/layouts/default.jsp">
+		<put-attribute name="head" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/shared/header.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/views/shared/footer.jsp" />
+	</definition>
+
+	<definition name="sideBarOff.body" template="/WEB-INF/layouts/side-bar-off.jsp">
+		<put-attribute name="mainContent" value="" />
+	</definition>
+	
+	<definition name="sideBarOn.body" template="/WEB-INF/layouts/side-bar-on.jsp">
+		<put-attribute name="mainContent" value="" />
+		<put-attribute name="sideBar" value="" />
+	</definition>
+
+</tiles-definitions>
